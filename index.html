@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<audio id="backgroundMusic" loop>
+  <source src="assets/audio/background-music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<head>
+	<title>Love Catcher. A Game for my beautiful GF</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="game.js"></script>
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body onload="mainMenu()">
+	<div id="goBoard">
+		<p>Game Over!</p>
+		<p>Click to Restart!</p>
+	</div>
+	<button id="leftBtn" ontouchstart="moveLeft()" ontouchend="stopMove()"></button>
+	<button id="rightBtn" ontouchstart="moveRight()" ontouchend="stopMove()"></button>
+	<!-- ◄ ► -->
+</body>
+</html>

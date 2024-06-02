@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+		id          = "com.derian.loveCatcher"
+		version     = "1.0" >
+
+	<name>Love Catcher</name>
+
+	<description>
+		Juego de atrapar corazón mientras se evitan las bombas.
+	</description>
+
+	<author>
+		Derian J. Hndz. L.
+	</author>
+
+	<icon src="icon.png" width="180" height="180"/>
+	<splash src="splash.png"/>
+
+</widget>
